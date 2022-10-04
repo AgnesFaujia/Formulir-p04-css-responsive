@@ -1,0 +1,79 @@
+body {
+    background-color: salmon;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+hr {
+    width: 100%;
+    height: 5px;
+    background-color: blueviolet;
+}
+
+.judul {
+    background-color: powderblue;
+}
+.title{
+    line-height: 5px;
+}
+.table {
+    border-collapse: collapse;
+}
+div{
+    text-align: center;
+}
+button {
+    width: 10%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color:powderblue;
+    padding: 5px;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width : 100%;
+        padding : 0px;
+    }
+    .title {
+        font-size: 1.2rem
+    }
+    td {
+        font-size: 0.8rem
+    }
+    .goldarah{
+        margin-left : 5px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width : 100%;
+        padding : 0px;
+    }
+    .title {
+        font-size: 1.2rem
+    }
+    td {
+        font-size: 0.8rem
+    }
+    .goldarah {
+        margin-left : 5px;
+    }
+  }
